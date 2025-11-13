@@ -17,7 +17,6 @@ namespace ApiLogin.Models
 
         [StringLength(100)]
         [EmailAddress]
-        [Key]
         public string? email { get; set; }
 
         [StringLength(50)]
